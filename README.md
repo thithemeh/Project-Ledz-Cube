@@ -8,3 +8,5 @@ Among the technologies used, the following are noteworthy: Raspberry Pi 3 microc
 For the motion capture system, OpenCV and MediaPipe libraries were used to detect hand movements that correspond to certain Rubik's Cube moves. This information is sent to Firebase Cloud Storage using the Pyrebase Python library. The data can be accessed by the mobile app directly from Firebase Storage, just as information can be sent from the app.
 
 In the Raspberry Pi 3 microcontroller, a Python script is used to access information from the cloud storage with the Firebase Admin library, interpret the data, and change the LED strip accordingly using the rpi_ws281x library.
+
+Both openGL and pygame libraries were used to create a Rubik's Cube 3d model displayed in the used laptop, which could help the user to view the Rubik's Cube state.
